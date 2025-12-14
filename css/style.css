@@ -765,11 +765,6 @@ footer {
 
 /* media queries > come se facessi una nuova pagina css > in questo caso scriviamo queste regole per il formato mobile*/
 @media (max-width:375px) {
-    body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    }
     .titolo-grande-inizio{
         font-size: 30px;
         line-height: 0.9;
