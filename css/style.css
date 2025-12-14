@@ -442,7 +442,7 @@ a.nav-link{
 .container-fluid-viola{
     background-color: #501e8e;
     position: relative;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .image-overlay-2 {
@@ -841,6 +841,16 @@ footer {
     }
     .container-fluid-3 .row [class*="col-12"] .image-hover-container {
         margin-bottom: 20px;
+    }
+    
+    /* Riduce il padding della fascia viola su mobile */
+    .container-fluid-viola {
+        padding: 30px 0 !important;
+    }
+    
+    /* Riduce il padding della fascia viola su mobile */
+    .container-fluid-viola {
+        padding: 30px 0 !important;
     }
     
     /* Quindicesima fascia - 2 colonne su mobile */
