@@ -644,6 +644,11 @@ footer {
         line-height: 1.5;
         padding: 20px;
     }
+    .descrizione-2 {
+        font-size: 10px;
+        line-height: 1.5;
+        padding: 10px;
+    }
 
     .container-fluid-3 .row [class*="col-md-6"] {
         margin-bottom: 10px;
@@ -702,12 +707,12 @@ footer {
         text-align: center;
     }
     .descrizione-2 {
-        padding-left: 10px;
-        padding-right: 15px;
+        padding-left: 2px;
+        padding-right: 2px;
         text-align: center;
     }
     .container-fluid-4 .titoletto,
-    .container-fluid-4 .testo-descrizione {
+    .container-fluid-4 .testo-descrizione .container-fluid-viola {
         padding-left: 15px !important;
         padding-right: 15px !important;
         box-sizing: border-box;
@@ -811,7 +816,7 @@ footer {
         text-align: center;
     }
     .container-fluid-4 .titoletto,
-    .container-fluid-4 .testo-descrizione {
+    .container-fluid-4 .testo-descrizione .container-fluid-viola {
         padding-left: 15px !important;
         padding-right: 15px !important;
         box-sizing: border-box;
