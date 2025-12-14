@@ -818,6 +818,17 @@ footer {
     .container-fluid-3 .row [class*="col-12"] .image-hover-container {
         margin-bottom: 20px;
     }
+    
+    /* Quindicesima fascia - 2 colonne su mobile */
+    .container-fluid-viola .gutter-row .col-12 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    
+    .container-fluid-viola .gutter-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .footer-title {
                 font-size: 36px;
