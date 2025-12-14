@@ -1,5 +1,11 @@
 /* PRIMA FASCIA */
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .header-sticky {
     background-color: #D8CEFE;
     position: sticky;
@@ -124,7 +130,9 @@ a.nav-link:hover::after {
 
 /* Bottone menu */
 .btn-menu{
-    background: transparent url('../img/menu.svg') no-repeat center center;
+    background: transparent no-repeat center center;
+    background-image: url(../img/menu.svg);
+    background-size: contain;
     border: none;
     padding: 0;
     width: 20px;
@@ -132,21 +140,27 @@ a.nav-link:hover::after {
     cursor: pointer;
     font-size: 0; /* Nasconde il testo del bottone */
     margin: 0 10px !important;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
 }
 
 /* Bottone close menu */
 .btn-close{
     background: transparent url('../img/close.svg') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     border: none;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     font-size: 0; /* Nasconde il testo del bottone */
     position: absolute;
-    top: 40px;
-    right: 20px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0;
+    color: transparent;
 }
 
 
