@@ -697,7 +697,12 @@ footer {
         text-align: left;
     }
     .descrizione {
-        padding-left: 15px;
+        padding-left: 12px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    .descrizione-2 {
+        padding-left: 12px;
         padding-right: 15px;
         text-align: left;
     }
@@ -794,7 +799,13 @@ footer {
         line-height: 30px;
     }
     .descrizione {
-        font-size: 12px;
+        font-size: 9px;
+        line-height: 1.4;
+        padding: 15px;
+        text-align: left;
+    }
+    .descrizione-2 {
+        font-size: 9px;
         line-height: 1.4;
         padding: 15px;
         text-align: left;
